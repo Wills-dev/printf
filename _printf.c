@@ -20,4 +20,23 @@ int _printf(const char *format, ...)
 	if (format == NULL)
 		return (-);
 
-	/*prevent parsing a null 
+	/*print each character of string*/
+       while (format[i])
+       {
+		if (format[i] != '%')
+		{
+			value = write(1,&format[i],1);
+			count = count + value;
+			i++;
+			continue;
+		}
+
+		if (format[i] == '%')
+		{
+			//expressions;
+		}
+       }
+
+       return (count);
+}
+
