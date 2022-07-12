@@ -67,11 +67,11 @@ Function that writes the Buffer Character.
 
 /* Indetifier : %c */
 parse_int.c
-Function that Prints an Integer.
+Function that Prints an Integer value.
 
 /* Indetifier : %i or %d */
 parse_string.c
-Function that Prints out a String.
+Function that Prints out a String value.
 
 /* Indetifier : %s */
 parse_binary.c
